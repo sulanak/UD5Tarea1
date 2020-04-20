@@ -1,0 +1,70 @@
+
+/* Define estilos compartidos por todos los inputs */
+
+input {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  margin-top: 5px;     
+  border-radius: 4px;
+}
+
+/* Define el estilo del input tipo text y sus estados */
+
+input[type=text] {
+  width: 90px;
+  height: 20px;
+  background: #ffffff;
+  padding: 4px 6px;
+}
+
+input[type=text]:hover { 
+    background: #d31b1b;
+    margin-top: 15px;     
+
+}
+
+input[type=text]:focus {
+    background: #1f119b;
+    margin-top: 25px;     
+
+}
+
+input[type=text]:active {
+
+    background: aqua;
+    margin-top: 35px;     
+
+}
+
+/* Define el estilo del input tipo button y sus estados */
+
+input[type=button] {
+  padding: 6px 15px;
+  background: #f5f5f5;
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background: #d31b1b;
+  margin-top: 15px;     
+
+
+}
+
+input[type=button]:active { 
+  background: aqua;
+  margin-top: 35px;     
+
+}
+
+input[type=button]:focus {
+  
+  outline: 5px dashed red;
+  background: #1f119b;
+  margin-top: 25px;     
+
+
+}
